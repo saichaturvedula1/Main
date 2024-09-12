@@ -6,7 +6,7 @@ function App() {
     { id: "1", name: 'product 1', price: 100 },
     { id: "2", name: 'product 2', price: 200 },
     { id: "3", name: 'product 3', price: 300 },
-    { id: "3", name: 'product 3', price: 400 },
+    { id: "4", name: 'product 3', price: 400 },
   ]
   const totalPrice = products.reduce((acc, product) => acc + product.price , 0);
   return (
